@@ -4,7 +4,7 @@ template<typename T>
 class TPQueue
 {
 private:
-T* arr; // массив с данными
+T* arr; // массив с данным
 int size; // максимальное количество элементов в очереди (размер массива)
 int begin, // начало очереди
 end; // конец очереди
